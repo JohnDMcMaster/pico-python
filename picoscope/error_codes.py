@@ -155,7 +155,7 @@ ERROR_CODES = [
     [0x54, "PICO_INITIALISE_FPGA",
      "The FPGA cannot be initialized, so unit cannot be opened."],
     [0x56, "PICO_EXTERNAL_FREQUENCY_INVALID",
-     "The frequency for the external clock is not within ±5% of the " +
+     "The frequency for the external clock is not within +/-5% of the " +
      "stated value."],
     [0x57, "PICO_CLOCK_CHANGE_ERROR",
      "The FPGA could not lock the clock signal."],
@@ -212,7 +212,7 @@ ERROR_CODES = [
     [0x119, "PICO_POWER_SUPPLY_CONNECTED",
      "The DC power supply is connected."],
     [0x11A, "PICO_POWER_SUPPLY_NOT_CONNECTED",
-     "The DC power supply isn’t connected."],
+     "The DC power supply isn't connected."],
     [0x11B, "PICO_POWER_SUPPLY_REQUEST_INVALID",
      "Incorrect power mode passed for current power source."],
     [0x11C, "PICO_POWER_SUPPLY_UNDERVOLTAGE",
